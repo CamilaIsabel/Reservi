@@ -14,13 +14,13 @@ function Header({ openUserModal, openTimeBlockModal }: HeaderProps) {
       <div className='flex gap-x-2 lg:gap-x-5'>
         <button
           onClick={openUserModal}
-          className='bg-custom-gray-02 text-gray-300 text-xs lg:text-sm font-bold border border-neutral-700 rounded-md px-1 lg:px-4 py-1 w-fit whitespace-nowrap'
+          className='bg-custom-gray-02 text-gray-300 text-xs hover:bg-white/10 lg:text-sm font-bold border border-neutral-700 rounded-md px-1 lg:px-4 py-1 w-fit whitespace-nowrap'
         >
           Create user
         </button>
         <button
           onClick={openTimeBlockModal}
-          className='bg-neutral-300 text-gray-900 text-xs lg:text-sm  font-bold border border-transparent rounded-md px-1 lg:px-4 py-1 w-fit whitespace-nowrap'
+          className='bg-neutral-300 text-gray-900 text-xs lg:text-sm hover:bg-neutral-100  font-bold border border-transparent rounded-md px-1 lg:px-4 py-1 w-fit whitespace-nowrap'
         >
           Create time block
         </button>
