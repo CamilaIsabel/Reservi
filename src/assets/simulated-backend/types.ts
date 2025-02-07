@@ -11,5 +11,5 @@ export interface TimeBlock {
   startTime: Date;
   endTime: Date;
   attachedUsers: number[];
-  color?: string;
+  color: string;
 }
