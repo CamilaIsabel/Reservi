@@ -29,7 +29,7 @@ const Select = <T extends Record<string, any>>({
 
   const handleSelect = (option: T) => {
     setSelectedOption(option);
-    onChange?.(valueKey ? (option[valueKey] as T) : option);
+    onChange?.(option);
     setIsOpen(false);
   };
 
