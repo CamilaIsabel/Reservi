@@ -56,7 +56,7 @@ export default function Home() {
             onFilterChange={handleFilterChange}
           />
         </div>
-        <div>
+        <div className='flex flex-col gap-y-5'>
           <TimeBlocks timeBlocks={filteredTimeBlocks} />
         </div>
       </div>
