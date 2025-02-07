@@ -91,7 +91,11 @@ function CreateTimeBlockModal({
               label='Seleccionar usuario'
               labelKey='name'
               valueKey='id'
-              onChange={(value) => setSelectedUser(value)}
+              onChange={(value) => {
+                if (value) {
+                  setSelectedUser(value.id);
+                }
+              }}
             />
           </div>
 
